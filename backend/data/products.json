@@ -1,0 +1,177 @@
+[
+    {
+      "name": "iPhone 16 Pro",
+      "description": "Latest iPhone model with advanced features",
+      "price": 139999,
+      "ratings": 4.8,
+      "brand": "Apple",
+      "category": "Smartphones",
+      "stock": 20,
+      "seller": "Apple Store",
+      "numOfReviews": 100,
+      "images": [
+        { "public_id": "iphone16_front", "url": "http://example.com/iphone16_front.jpg" },
+        { "public_id": "iphone16_back", "url": "http://example.com/iphone16_back.jpg" }
+      ],
+      "reviews": [
+        { "name": "Arun", "rating": 5, "comment": "Amazing phone!" },
+        { "name": "Sneha", "rating": 4, "comment": "Great performance!" }
+      ]
+    },
+    {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Samsung flagship with 200MP camera",
+      "price": 119999,
+      "ratings": 4.7,
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "stock": 15,
+      "seller": "Samsung Store",
+      "numOfReviews": 80,
+      "images": [
+        { "public_id": "s24_front", "url": "http://example.com/s24_front.jpg" },
+        { "public_id": "s24_back", "url": "http://example.com/s24_back.jpg" }
+      ],
+      "reviews": [
+        { "name": "Karthik", "rating": 5, "comment": "Best Android phone!" }
+      ]
+    },
+    {
+      "name": "OnePlus 12 Pro",
+      "description": "High-performance flagship with OxygenOS",
+      "price": 79999,
+      "ratings": 4.6,
+      "brand": "OnePlus",
+      "category": "Smartphones",
+      "stock": 25,
+      "seller": "OnePlus Store",
+      "numOfReviews": 50,
+      "images": [
+        { "public_id": "oneplus12_front", "url": "http://example.com/oneplus12_front.jpg" },
+        { "public_id": "oneplus12_back", "url": "http://example.com/oneplus12_back.jpg" }
+      ],
+      "reviews": [
+        { "name": "Ravi", "rating": 5, "comment": "Super fast!" }
+      ]
+    },
+    {
+      "name": "MacBook Pro 16\"",
+      "description": "Apple laptop with M3 chip",
+      "price": 249999,
+      "ratings": 4.9,
+      "brand": "Apple",
+      "category": "Laptops",
+      "stock": 10,
+      "seller": "Apple Store",
+      "numOfReviews": 60,
+      "images": [
+        { "public_id": "macbook16_front", "url": "http://example.com/macbook16_front.jpg" }
+      ],
+      "reviews": [
+        { "name": "Anjali", "rating": 5, "comment": "Excellent for work!" }
+      ]
+    },
+    {
+      "name": "Dell XPS 15",
+      "description": "High-end Windows laptop with InfinityEdge display",
+      "price": 159999,
+      "ratings": 4.7,
+      "brand": "Dell",
+      "category": "Laptops",
+      "stock": 12,
+      "seller": "Dell Store",
+      "numOfReviews": 40,
+      "images": [
+        { "public_id": "dellxps15_front", "url": "http://example.com/dellxps15_front.jpg" }
+      ],
+      "reviews": [
+        { "name": "Suresh", "rating": 4, "comment": "Great laptop!" }
+      ]
+    },
+    {
+      "name": "Sony WH-1000XM5",
+      "description": "Noise-cancelling wireless headphones",
+      "price": 24999,
+      "ratings": 4.8,
+      "brand": "Sony",
+      "category": "Headphones",
+      "stock": 50,
+      "seller": "Sony Store",
+      "numOfReviews": 120,
+      "images": [
+        { "public_id": "sony_wh1000xm5", "url": "http://example.com/sony_wh1000xm5.jpg" }
+      ],
+      "reviews": [
+        { "name": "Neha", "rating": 5, "comment": "Best noise-cancelling headphones!" }
+      ]
+    },
+    {
+      "name": "Bose QuietComfort 45",
+      "description": "Premium noise-cancelling headphones",
+      "price": 21999,
+      "ratings": 4.7,
+      "brand": "Bose",
+      "category": "Headphones",
+      "stock": 40,
+      "seller": "Bose Store",
+      "numOfReviews": 90,
+      "images": [
+        { "public_id": "bose_qc45", "url": "http://example.com/bose_qc45.jpg" }
+      ],
+      "reviews": [
+        { "name": "Amit", "rating": 4, "comment": "Very comfortable!" }
+      ]
+    },
+    {
+      "name": "Apple Watch Series 9",
+      "description": "Latest smartwatch with fitness tracking",
+      "price": 44999,
+      "ratings": 4.8,
+      "brand": "Apple",
+      "category": "Smartwatches",
+      "stock": 30,
+      "seller": "Apple Store",
+      "numOfReviews": 70,
+      "images": [
+        { "public_id": "applewatch9", "url": "http://example.com/applewatch9.jpg" }
+      ],
+      "reviews": [
+        { "name": "Priya", "rating": 5, "comment": "Love the health features!" }
+      ]
+    },
+    {
+      "name": "Samsung Galaxy Watch 6",
+      "description": "Advanced smartwatch with AMOLED display",
+      "price": 39999,
+      "ratings": 4.6,
+      "brand": "Samsung",
+      "category": "Smartwatches",
+      "stock": 25,
+      "seller": "Samsung Store",
+      "numOfReviews": 55,
+      "images": [
+        { "public_id": "galaxywatch6", "url": "http://example.com/galaxywatch6.jpg" }
+      ],
+      "reviews": [
+        { "name": "Vikram", "rating": 5, "comment": "Amazing display!" }
+      ]
+    },
+    {
+      "name": "Logitech MX Master 3",
+      "description": "Advanced wireless mouse for professionals",
+      "price": 9999,
+      "ratings": 4.9,
+      "brand": "Logitech",
+      "category": "Accessories",
+      "stock": 60,
+      "seller": "Logitech Store",
+      "numOfReviews": 150,
+      "images": [
+        { "public_id": "mxmaster3", "url": "http://example.com/mxmaster3.jpg" }
+      ],
+      "reviews": [
+        { "name": "Rahul", "rating": 5, "comment": "Best mouse ever!" }
+      ]
+    }
+  ]
+  

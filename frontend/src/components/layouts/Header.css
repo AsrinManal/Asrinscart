@@ -1,0 +1,222 @@
+/* =======================
+   HEADER STYLING (Asrin Cart)
+   ======================= */
+
+/* Navbar Gradient */
+.navbar {
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+  padding: 0.8rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 15px 15px;
+}
+/* =======================
+   🛒 CART ICON STYLES
+   ======================= */
+
+.cart-icon-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.4rem;
+  transition: transform 0.3s ease;
+}
+
+.cart-icon-container:hover {
+  transform: scale(1.15);
+  color: #ffeb3b;
+}
+
+.cart-icon {
+  vertical-align: middle;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: #ffeb3b;
+  color: #4a00e0;
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Brand Name */
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #fff !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+  color: #ffd700 !important;
+}
+
+/* Search Input */
+.navbar .form-control {
+  border-radius: 25px;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  outline: none;
+  width: 180px;
+  transition: width 0.3s, box-shadow 0.3s;
+}
+
+.navbar .form-control:focus {
+  width: 250px;
+  box-shadow: 0 0 5px #ffeb3b;
+}
+
+/* Dropdown (Category & Sort) */
+.navbar .form-select {
+  border-radius: 25px;
+  padding: 0.3rem 0.8rem;
+  margin-right: 0.5rem;
+  border: none;
+  min-width: 150px;
+  transition: box-shadow 0.3s;
+}
+
+.navbar .form-select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ffd700;
+}
+
+/* Buttons */
+.navbar .btn {
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar .btn:hover {
+  background-color: #ffeb3b;
+  color: #4a00e0;
+}
+
+/* =======================
+   USER AVATAR & DROPDOWN
+   ======================= */
+
+/* User dropdown container */
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* Avatar image (circle) */
+.avatar-img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
+  vertical-align: middle;
+}
+
+.avatar-img:hover {
+  transform: scale(1.1);
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background-color: #fff;
+  min-width: 130px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 999;
+  overflow: hidden;
+}
+
+/* ✅ For click-based dropdown */
+.dropdown-content.show {
+  display: block;
+}
+
+
+/* Dropdown items */
+.dropdown-item {
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background-color: #f2f2f2;
+}
+
+/* =======================
+   RESPONSIVE DESIGN
+   ======================= */
+
+@media (max-width: 992px) {
+  .navbar .form-control {
+    width: 120px;
+  }
+
+  .navbar .form-select {
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar .btn-cart {
+    margin-top: 0.5rem;
+  }
+
+  .navbar .form-control {
+    width: 100px;
+  }
+}
+
+/* =======================
+   NAV LINK STYLES
+   ======================= */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  margin: 0 0.5rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffeb3b !important;
+}
+
+/* =======================
+   CART BUTTON (if used)
+   ======================= */
+.navbar .btn-cart {
+  background-color: #fff;
+  color: #4a00e0;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar .btn-cart:hover {
+  background-color: #ffeb3b;
+  color: #4a00e0;
+}

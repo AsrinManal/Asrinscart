@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  list-style: none;
+  gap: 5px;
+}
+
+.page-item {
+  cursor: pointer;
+}
+
+.page-link {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #6a0dad;
+  background: white;
+  color: #6a0dad;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.page-link:hover {
+  background: linear-gradient(135deg, #6a0dad, #9b59b6);
+  color: white;
+}
+
+.active .page-link {
+  background: linear-gradient(135deg, #6a0dad, #9b59b6);
+  color: white;
+  border: none;
+}

@@ -1,0 +1,138 @@
+/* payment.css */
+
+.payment-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #0f172a, #1e293b);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.payment-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 35px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.payment-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.payment-header h1 {
+  font-size: 2rem;
+  color: #00b4d8;
+}
+
+.payment-header p {
+  font-size: 0.9rem;
+  color: #a5b4fc;
+}
+
+.payment-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.payment-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #00d4ff;
+  gap: 10px;
+  justify-content: center;
+}
+
+.lock-icon {
+  color: #00d4ff;
+}
+
+.payment-subtitle {
+  text-align: center;
+  color: #a5b4fc;
+  font-size: 0.85rem;
+}
+
+.card-input-box {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 12px 15px;
+}
+
+.card-icon {
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: #60a5fa;
+}
+
+.stripe-input {
+  flex: 1;
+  color: #fff;
+}
+
+.error-msg {
+  background: rgba(255, 50, 50, 0.2);
+  color: #ff6b6b;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.pay-btn {
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.pay-btn:hover {
+  background: linear-gradient(135deg, #0096c7, #023e8a);
+  transform: scale(1.03);
+}
+
+.pay-btn.processing {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.safe-note {
+  text-align: center;
+  color: #a5b4fc;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.loading {
+  text-align: center;
+  color: #a5b4fc;
+  font-size: 1rem;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

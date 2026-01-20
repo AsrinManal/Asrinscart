@@ -1,0 +1,30 @@
+{
+  "name": "asrin-cart",
+  "version": "1.0.0",
+  "description": "ecommerce using mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon backend/server.js",
+    "dev": "set NODE_ENV=development&& npx nodemon backend/server.js  ",
+    "prod": "set NODE_ENV=production&& npx nodemon backend/server.js ",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "author": "Asrin Manal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.9",
+    "stripe": "^19.2.0",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

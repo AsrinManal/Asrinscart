@@ -1,0 +1,49 @@
+/* Container for sidebar + main content */
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Sidebar styles (reuse your existing sidebar.css) */
+.sidebar {
+  width: 250px;
+  background-color: #212529;
+  color: white;
+  padding: 25px 20px;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+/* Content area next to sidebar */
+.dashboard-content {
+  flex: 1; /* take remaining width */
+  padding: 25px;
+  overflow-x: auto;
+  background-color: #f8f9fa;
+}
+
+/* Responsive: mobile */
+@media (max-width: 767px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: -260px;
+    top: 0;
+    width: 240px;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .dashboard-content {
+    padding: 15px;
+  }
+}
